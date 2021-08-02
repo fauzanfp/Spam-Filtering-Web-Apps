@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}Projek{% endblock %} 
+{% block content %}
+{% with messages = get_flashed_messages() %}
+<form method="POST">
+<h3 text-align:center> Spam Filter </h3>
+<br>
+<br>
+<div class="form-floating">
+    <textarea class="form-control" placeholder="text" id="text" name="text"></textarea>
+    <br>
+</div>
+{% endwith %}
+<button type="submit" class="btn btn-primary">Filter IT!</button>
+<br>
+<br>
+<a href="{{ url_for('logout') }}"> logout </a>
+</form>
+{% endblock %}

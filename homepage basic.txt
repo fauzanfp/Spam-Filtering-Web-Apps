@@ -1,0 +1,64 @@
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .bar,h1,button {font-family: "Montserrat", sans-serif}
+    </style>
+    <body>
+
+    <!-- Header -->
+    <header class="header" style="padding:128px 16px" background>
+      <h1 class="margin jumbo">START PAGE</h1>
+      <p class="xlarge">by: HeHeTeam</p>
+      <p class="auth"> Aldy Widanto, Auryn Hanna, Fauzan fadhlurrahman </p>
+    </header>
+    
+    <!-- First Grid -->
+    <div class="row-padding padding-64 container">
+      <div class="content">
+          <h1>Spam Filtering</h1>
+          <h5 class="padding-32">Apa itu Spam Filter?</h5>
+    
+          <p class="text-grey"> adalah program yang digunakan untuk mendeteksi email yang tidak diinginkan dan tidak diinginkan serta mencegah pesan tersebut masuk ke kotak masuk pengguna. 
+              Seperti jenis program penyaringan lainnya, filter spam mencari kriteria tertentu yang menjadi dasar penilaiannya. Misalnya, versi paling sederhana dan paling awal (seperti yang tersedia dengan Microsoft Hotmail) 
+              dapat diatur untuk memperhatikan kata-kata tertentu di baris subjek pesan dan untuk mengecualikannya dari kotak masuk pengguna. 
+              Metode ini tidak terlalu efektif, terlalu sering menghilangkan pesan yang benar-benar sah (ini disebut false positive) dan membiarkan spam yang sebenarnya masuk.</p>
+      </div>
+    </div>
+    
+    <!-- Second Grid -->
+    <div class="row-padding light-grey padding-64 container">
+      <div class="content">
+    
+        <div class="twothird">
+          <h1>Apakah kita memerlukan filter spam?</h1>
+    
+          <p class="text-grey">Spam berpotensi berbahaya. Alasan utama mengapa spam sangat penting untuk difilter adalah karena dapat berisi konten berbahaya yang dapat menyebarkan virus dan serangan dunia maya. 
+              Satu email dapat dengan mudah menjatuhkan perusahaan besar, jadi bisnis membutuhkan keamanan terbaik yang bisa mereka dapatkan.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="container padding-64 center opacity">  
+      <div class="xlarge padding-32">
+        <i class="fa fa-facebook-official hover-opacity"></i>
+        <i class="fa fa-instagram hover-opacity"></i>
+        <i class="fa fa-snapchat hover-opacity"></i>
+        <i class="fa fa-pinterest-p hover-opacity"></i>
+        <i class="fa fa-twitter hover-opacity"></i>
+     </div>
+    </footer>
+    
+    </body>
+    .header{
+
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.auth{
+
+    font-size: 8px;
+}
